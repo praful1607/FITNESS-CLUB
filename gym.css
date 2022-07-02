@@ -1,0 +1,117 @@
+:root{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.left{
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    left: 60px;
+    
+}
+
+.left img{
+    width: 110px;
+    border-radius: 90px;
+}
+
+.center{
+    display: block;
+    width: 45%;
+    margin-top: 15px;
+    margin-left: 375px;
+    background-color: beige;
+    top: 0px;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    margin-top: 15px;
+}
+
+.navbar{
+    display: inline-block;
+    background-color: beige;
+    top: 15px;
+}
+
+.navbar li{
+    display: inline-block;
+    background-color: beige;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 20px;
+    color: BLACK;
+    background-color: beige;
+
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: royalblue;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;}
+
+.btn:hover {
+    background-color: rgb(143, 141, 141);
+}
+
+
+.container {
+    border: 2px solid white;
+    margin: 180px 895px;
+    padding: 40px 40px;
+    width: 33%;
+    border-radius: 28px;
+    position: relative;
+    align-self: center;
+    background-color: rgba(0,0,0,.5);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}    
+
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 480px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 10px -2px;
+    font-size: 20px;
+    background-color: beige;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
